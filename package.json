@@ -1,0 +1,27 @@
+{
+  "name": "myappnode",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift Origin",
+  "main": "counter.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node counter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guadalupe-gomez/myappnode.git"
+  },
+  "author": "Guadalupe Gomez <guada.sgomez@gmail.com>",
+  "license": "GuadalupeGomez",
+  "bugs": {
+    "url": "https://github.com/guadalupe-gomez/myappnode/issues"
+  },
+  "homepage": "https://github.com/guadalupe-gomez/myappnode"
+}
+

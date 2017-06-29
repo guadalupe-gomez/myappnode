@@ -1,6 +1,6 @@
 var http = require('http');
 
-var userCount = 0;
+var userCount = 2;
 http.createServer(function (request, response) {
     console.log('New connection');
     userCount*userCount;

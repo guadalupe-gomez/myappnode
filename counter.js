@@ -3,7 +3,7 @@ var http = require('http');
 var userCount = 2;
 http.createServer(function (request, response) {
     console.log('New connection');
-    userCount*userCount;
+    userCount = userCount*userCount;
 
     response.writeHead(200, {'Content-Type': 'text/plain'});
     response.write('Hello!\n');
